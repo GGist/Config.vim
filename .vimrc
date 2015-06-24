@@ -1,9 +1,5 @@
 " Provides 4 space tabbing with smart backspace
-set tabstop=8
-set softtabstop=0 
-set expandtab 
-set shiftwidth=4 
-set smarttab
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -17,8 +13,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'tpope/vim-rails'
-Plugin 'vim-ruby/vim-ruby'
+"Plugin 'tpope/vim-rails'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
